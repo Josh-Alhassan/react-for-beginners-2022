@@ -6,6 +6,7 @@ import Profile from './Components/Profile';
 import Counter from './Components/Counter';
 import Resume from './Components/Resume';
 import FunctionEvent from './Components/FunctionEvent';
+import ClassEvent from './Components/ClassEvent';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
 
       <div className="center">
         <FunctionEvent />
+        <ClassEvent />
       </div>
     </div>
   );
