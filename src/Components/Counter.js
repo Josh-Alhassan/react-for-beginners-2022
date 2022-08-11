@@ -8,11 +8,34 @@ class Counter extends Component {
     }
   }
 
+  // Add increament Method
+  increament() {
+    this.setState({
+      counter: this.state.counter + 1,
+    })
+  }
+
+  // Add Decreament Method
+  decreament() {
+    this.setState({
+      counter: this.state.counter - 1,
+    })
+  }
+
+  // Add Multiplication Method
+  multiplyByTwo() {
+    this.setState({
+      counter: this.state.counter * 2,
+    })
+  }
+
   render() {
     return (
       <div>
         <h2> Count value is: {this.state.counter} </h2>
-        <button> Click </button>
+        <button onClick={() => this.increament()} > Increament </button>
+        <button onClick={() => this.decreament()} > Decreament </button>
+        <button onClick={() => this.multiplyByTwo()} > MultiplyByTwo</button>
       </div>
     )
   }
