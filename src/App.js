@@ -3,6 +3,7 @@ import "./style.css";
 import Hello from './Components/Hello'
 import Message from './Components/Message';
 import Profile from './Components/Profile';
+import Counter from './Components/Counter';
 
 export default function App() {
   return (
@@ -14,6 +15,9 @@ export default function App() {
       <Profile name="Joshua" lastname="Alhassan" >
         <p>Learning about props in reactjs</p>
       </Profile>
+
+      {/* Counter Increament component using state */}
+      <Counter />
     </div>
   );
 }
