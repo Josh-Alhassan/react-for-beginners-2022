@@ -5,6 +5,7 @@ import Message from './Components/Message';
 import Profile from './Components/Profile';
 import Counter from './Components/Counter';
 import Resume from './Components/Resume';
+import FunctionEvent from './Components/FunctionEvent';
 
 export default function App() {
   return (
@@ -24,6 +25,10 @@ export default function App() {
 
       {/* Counter Increament component using state */}
       <Counter />
+
+      <div className="center">
+        <FunctionEvent />
+      </div>
     </div>
   );
 }
