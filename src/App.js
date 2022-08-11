@@ -1,6 +1,6 @@
-import React from "react";
-import "./style.css";
-import Hello from './Components/Hello'
+import React from 'react';
+import './style.css';
+import Hello from './Components/Hello';
 import Message from './Components/Message';
 import Profile from './Components/Profile';
 import Counter from './Components/Counter';
@@ -11,9 +11,12 @@ export default function App() {
     <div>
       <h1>Hello StackBlitz!</h1>
       <Hello />
-      <Message messagecode="26" messagecontent="This is from a class component" />
+      <Message
+        messagecode="26"
+        messagecontent="This is from a class component"
+      />
       <p>Start editing to see some magic happen :)</p>
-      <Profile name="Joshua" lastname="Alhassan" >
+      <Profile name="Joshua" lastname="Alhassan">
         <p>Learning about props in reactjs</p>
       </Profile>
 
