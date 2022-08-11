@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Hello from './Components/Hello'
 import Message from './Components/Message';
+import Profile from './Components/Profile';
 
 export default function App() {
   return (
@@ -10,7 +11,9 @@ export default function App() {
       <Hello />
       <Message />
       <p>Start editing to see some magic happen :)</p>
-
+      <Profile name="Joshua" lastname="Alhassan" >
+        <p>Learning about props in reactjs</p>
+      </Profile>
     </div>
   );
 }
