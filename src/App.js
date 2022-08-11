@@ -9,7 +9,7 @@ export default function App() {
     <div>
       <h1>Hello StackBlitz!</h1>
       <Hello />
-      <Message />
+      <Message messagecode="26" messagecontent="This is from a class component" />
       <p>Start editing to see some magic happen :)</p>
       <Profile name="Joshua" lastname="Alhassan" >
         <p>Learning about props in reactjs</p>

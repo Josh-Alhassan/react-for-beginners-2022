@@ -5,7 +5,10 @@ import { Component } from 'react';
 class Message extends Component {
   render() {
     return (
-      <h2> Thi is a class component </h2>
+      <div> 
+        <h2> Thi is a class component </h2>
+        <p> MESSAGE: {this.props.messagecode} {this.props.messagecontent} </p>
+      </div>
     )
   }
 }
